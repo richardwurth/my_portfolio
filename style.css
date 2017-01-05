@@ -1,0 +1,197 @@
+.contact-links .fa-4x {
+  vertical-align: middle;
+}
+
+p,
+h1,
+h4 {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+#logo {
+  background-color: rgba(255, 255, 255, .75);
+  border-radius: 10px;
+  color: #252525;
+  width: 350px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.social {
+  padding-top: 35px;
+  color: rgb(238, 135, 154);
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+
+}
+.container-large {
+  width: 70%;
+  margin: auto;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.header {
+  margin: 0;
+  padding-top: 200px;
+  width: 100%;
+  height: 400px;
+
+}
+
+.about-me {
+
+  padding: 75px 20px;
+  font-size: 1.15em;
+}
+.about-me-background {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  padding-right: 18px;
+  padding-left: 18px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.8);
+}
+.about-me img {
+  max-height: 250px;
+  border-radius: 50%;
+  border: 7px solid #252525;
+}
+
+#bio {
+  padding: 20px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.richard-picture {
+ border-radius: 12px;
+}
+
+
+.portfolio .row {
+  margin: 75px 20px
+}
+
+.portfolio h2 {
+  margin-top: 75px;
+}
+
+.portfolio h3 {
+  padding-top: 40px;
+  color: rgb(232, 117, 136);
+}
+
+.portfolio .col-sm-6 {
+  padding: 12px;
+}
+
+.contact {
+  padding: 2px 20px;
+
+  background-color: rgba(18, 231, 246, 0.2);
+}
+
+#have-chat {
+  padding-top: 40px
+}
+
+footer {
+  text-align: center;
+  color: #252525;
+  height: 90px;
+  background: rgb(0, 0, 0);
+  padding-top: 20px
+}
+
+@media only screen and (max-width: 770px) {
+  .about-me img {
+    display:block;
+    margin: 0 auto;
+  }
+  .portfolio img {
+    max-width: 150px;
+    margin-top: 170px;
+  }
+
+  #have-chat {
+    padding-top: 20px;
+  }
+
+  .contact-links {
+    padding-top: 35px;
+  }
+
+  #footer-links li {
+    padding: 0 6px;
+  }
+
+}
+
+body {
+    background-color: #eaeaea;
+    width: 10000px;
+    display: table-cell;
+    vertical-align: middle;
+    background-image: url('https://tidyupsd.com/wp-content/uploads/tech-banner.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+.ul-fixed {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ul-bottom {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    width: 90;
+}
+
+li {
+  float: left;
+  font-family: Dosis;
+  font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(18, 18, 18, 0.6);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.portfolio-title {
+  text-align: center;
+  font-family: VT323;
+  font-size: 24px;
+  padding: 10px;
+}
