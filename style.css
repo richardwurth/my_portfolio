@@ -160,12 +160,13 @@ body {
 }
 
 .ul-bottom {
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    list-style-type: none;
-    background-color: black;
-    width: 90;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: black;
+  width: 300px;
 }
 
 li {
